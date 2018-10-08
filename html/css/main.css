@@ -1,0 +1,45 @@
+.font_title {
+    font-size: 30px;
+    color: white;
+    overflow: hidden;
+}
+
+.font_content {
+    font-size: 25px;
+    color: white;
+    overflow: hidden;
+}
+
+.select {
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    height: 80px;
+    width: 580px;
+    line-height: 80px;
+    font-size: 25px;
+    color: white;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.selectTxt {
+    position: absolute;
+    left: 200px;
+    width: 400px;
+    font-size: 25px;
+    color: white;
+    overflow: hidden;
+}
+
+.subfocus {
+    background-image: url(../img/main_subfocus.png);
+    background-size: 349px 71px;
+    color: white;
+}
+
+.subnormal {
+    background-image: none;
+    background-size: 349px 71px;
+    color: gray;
+}

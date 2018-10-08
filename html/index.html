@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="1280*720; text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+
+    <!-- Common begin -->
+    <script type="text/javascript" src="js/lcui/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/lcui/lcui.js"></script>
+    <!-- Common end -->
+
+    <script type="text/javascript" src="js/page/avSetting.js"></script>
+    <script type="text/javascript" src="js/page/menu.js"></script>
+    <script type="text/javascript" src="js/page/fileBrowser.js"></script>
+    <script type="text/javascript" src="js/page/testPage.js"></script>
+</head>
+
+<body>
+
+<script>
+    LcUI.UI.start(function () {
+        (new LcUI.UIModule()).go(MenuPage);
+    });
+
+
+</script>
+
+</body>
+</html>
+
